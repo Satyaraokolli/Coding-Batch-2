@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+
+
+ // Compiler version JDK 11.0.2
+
+ public class solution
+ {
+   public static void main(String args[]) throws IOException
+   {
+     BufferedReader bufferReader=new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("enter a value between 1 and 21");
+    int N=Integer.parseInt(bufferReader.readLine().trim());
+    for(int i=1;i<=10;i++)
+    {
+      System.out.println(N+"  * "+i+"  = "+ N*i);
+    }
+    bufferReader.close();
+   }
+ }
